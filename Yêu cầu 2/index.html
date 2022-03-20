@@ -30,7 +30,7 @@
         <table class="table">
             <tr class="row-1">
                 <td class="btn-create">
-                    <button class="btn-btn-create" type="button" onclick="">Tạo mảng</button>
+                    <button class="btn-btn-create" type="button" onclick="AddArray()">Tạo mảng</button>
                 </td>
                 <td id="Array-Numbers"> </td>
             </tr>
@@ -39,7 +39,25 @@
                     <p id="Array-Numbers-Changed">Giá trị mảng sau khi xử lý : </p>
                 </td>
             </tr>
-            
+            <tr class="row-3">
+                <td colspan="2">
+                    <form action="" id="form-1" onchange="Arrange()">
+                        <input id="form-increase" type="radio" name="gender" value="option1" placeholder="" aria-hidden="true">Sắp xếp tăng
+                        <input id="form-decrease" type="radio" name="gender" value="option2" placeholder="" aria-hidden="true">Sắp xếp giảm
+                    </form>
+                </td>
+            </tr>
+            <tr class="row-4">
+                <td colspan="2">
+                    <form action="" class="form-2">
+                        <label for="" >Thêm vào vị trí: </label>
+                        <input id="numbers-1" type="number" name="" value="" placeholder="2" aria-hidden="true">
+                        <label for="" >Giá trị: </label>
+                        <input id="numbers-2" type="number" name="" value="" placeholder="100" aria-hidden="true">
+                        <button class="btn-btn-create" type="button" onclick="AddLocation()">Thêm</button>
+                    </form>
+                </td>
+            </tr>
         </table>
     </div>
 <script src="./js/script.js"></script>
