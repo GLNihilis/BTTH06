@@ -6,11 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sử dụng đối tượng Array</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button
+        {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        
+        /* Firefox */
+        input[type=number]
+        {
+          -moz-appearance: textfield;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1 class ="header-title">Thao tác trên mảng</h1>
     </header>
+    <div class="container">
+        <table class="table">
+            <tr class="row-1">
+                <td class="btn-create">
+                    <button class="btn-btn-create" type="button" onclick="">Tạo mảng</button>
+                </td>
+                <td id="Array-Numbers"> </td>
+            </tr>
+            <tr class="row-2">
+                <td colspan="2">
+                    <p id="Array-Numbers-Changed">Giá trị mảng sau khi xử lý : </p>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
 <script src="./js/script.js"></script>
 </body>
 </html>

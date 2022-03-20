@@ -1,0 +1,13 @@
+body
+{   
+    border: inset 2.5px black;
+    height: 270px;
+    width: 600px;
+    margin: 100px 420px 100px 420px;
+    overflow: auto;
+}
+.header-title
+{
+    color: navy;
+    text-align: center;
+}
