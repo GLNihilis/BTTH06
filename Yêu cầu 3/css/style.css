@@ -1,0 +1,68 @@
+body
+{   
+    border: inset 2.5px black;
+    height: 270px;
+    width: 600px;
+    margin: 100px 420px 100px 420px;
+    overflow: auto;
+}
+.header-title
+{
+    color: navy;
+    text-align: center;
+}
+.table
+{
+    height: 150px;
+    width: 500px;
+    margin: 10px 50px 10px 50px;   
+}
+table, tr, td
+{
+    border: solid 1.888px;
+    border-collapse: collapse;
+    color: rebeccapurple;
+}
+.btn-create
+{
+    text-align: center;
+    width: 18%;
+    height: 38px;
+}
+.btn-btn-create
+{
+    background-color: rgb(187, 182, 182);
+    border: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 7px;
+    display: inline-block;
+    font-size: 12px;
+}
+#Array-Numbers
+{
+    width: 82%;
+}
+#Array-Numbers-Changed
+{
+    color: chocolate;
+}
+.row-3
+{
+    text-align: center;
+    height: 38px;
+}
+.row-4
+{
+    text-align: center;
+    height: 38px;
+}
+#numbers-1
+{
+    width: 38px;
+}
+#numbers-2
+{
+    width: 70px;
+}
